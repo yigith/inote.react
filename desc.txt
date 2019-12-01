@@ -1,0 +1,31 @@
+npx create-react-app inote.react
+cd .\inote.react\
+npm start
+
+code .
+
+# https://react-bootstrap.github.io/getting-started/introduction/
+npm install react-bootstrap bootstrap --save
+
+# add to index.js or scr/App.js
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+# https://react-bootstrap.github.io/components/navbar/
+import { Nav, Navbar } from 'react-bootstrap'
+
+# https://reacttraining.com/react-router/web/guides/quick-start
+npm install react-router-dom --save
+
+
+# https://reactjs.org/docs/conditional-rendering.html
+{true && <p>test</p>}
+{true ? ( <p>yes</p> ) : ( <p>no</p> )}
+{true ? ( <React.Fragment> <p>yes</p><p>yes</p> </React.Fragment> ) : ( <p>no</p> )}
+
+
+# https://reactjs.org/docs/handling-events.html
+binding this  
+
+# https://reactjs.org/docs/state-and-lifecycle.html#converting-a-function-to-a-class
+state and lifecycle
+
